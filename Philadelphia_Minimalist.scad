@@ -37,7 +37,7 @@ translate([0, 0, -.05])rotate([0,0,0])mirror([0,1,0]){
 //  keycap(keyID = 6, cutLen = 0, Stem = Choc,  Dish = false, SecondaryDish = false, visualizeDish = false, crossSection = false, homeDot = false, Legends = false);
 }
 translate([0, -8, -.05])rotate([0,0,0])mirror([0,0,0]){
-  keycap(keyID = 6, cutLen = 0, Stem = Choc,  Dish = false, SecondaryDish = false, visualizeDish = false, crossSection = false, homeDot = false, Legends = false);
+  keycap(keyID = 0, cutLen = 0, Stem = Choc,  Dish = false, SecondaryDish = false, visualizeDish = false, crossSection = false, homeDot = false, Legends = false);
 }
 
 // translate([14, 14, 0])rotate([0,0,90]) keycap(keyID = 0, cutLen = 0, Stem =true,  Dish = true, SecondaryDish = false,Stab = 0 , visualizeDish = false, crossSection = false, homeDot = false, Legends = false);
@@ -88,7 +88,7 @@ keyParameters = //keyParameters[KeyID][ParameterID]
 //  BotWid, BotLen, TWDif, TLDif, keyh, WSft, LSft  XSkew, YSkew, ZSkew,/*|*/ WEx, LEx, CapR0i, CapR0f, CapR1i, CapR1f, CapREx, StemEx, chop shift
     //Column 0    
     //set R2 14x14 choc trantisiton  
-    [12.90,  12.90, 3.0, 3.0,  2.5,  0.0,  0.0, 0.0, -0, -0,/*|*/ 2,   2,    1,      3,     1,      3,     2,       2, 0], //R2 Top surface  
+    [13.50,  13.50, 3.0, 3.0,  2.5,  0.0,  0.0, 0.0, -0, -0,/*|*/ 2,   2,    1,      3,     1,      3,     2,       2, 0], //R2 Top surface  
     [12.40,  12.40, 5.0, 8.0,-0.75,  0.0,  0.0, 0.0, -0, -0,/*|*/ 1,   1,    2,      3,     2,      3,     2,       2, 0], //R2 Bottom Choc surface 
     [12.40,  12.40, 5.0, 8.0,-0.75,  0.0,  0.0, 0.0, -0, -0,/*|*/ 1,   1,    2,      3,     2,      3,     2,       2, 0], //R2 Bottom MX  surface  
    //MX chop
