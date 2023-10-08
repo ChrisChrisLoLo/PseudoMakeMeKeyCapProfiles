@@ -505,8 +505,8 @@ function StemTrajectory2() =
 
 module choc_stem(draftAng = 5) {
   // original
-  // stemHeight = 3.1;
-  stemHeight = 4.1;
+  stemHeight = 3.1;
+  // stemHeight = 4.1;
   dia = .30;
   wids = 1.2/2;
   lens = 2.9/2; 
